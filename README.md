@@ -43,7 +43,7 @@ class TelevisionWatcher {
     
     init() {
         // Block example
-        tv.subscribe(to: .poweredOn) { (notification) in
+        tv.subscribe(to: .poweredOn) { _ in
             print("TV was powered on.")
         }
         
